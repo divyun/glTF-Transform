@@ -4,7 +4,7 @@ import {
 	Primitive as PrimitiveDef,
 } from '@gltf-transform/core';
 import {
-	type BufferAttribute,
+	BufferAttribute,
 	BufferGeometry,
 	Line,
 	LineLoop,
@@ -13,7 +13,7 @@ import {
 	Mesh,
 	Points,
 	SkinnedMesh,
-	TypedArray,
+	type TypedArray,
 } from 'three';
 import type { DocumentViewSubjectAPI } from '../DocumentViewImpl.js';
 import type { MeshLike } from '../constants.js';
